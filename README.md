@@ -5,9 +5,9 @@
  `"Log_Directory"`
  
  logs:
-` -log1.log`
-` -log2.log`
- `-log3.log`
+` -log1.log`<br>
+` -log2.log`<br>
+ `-log3.log`<br>
  
  email:
 ` support@emailprovicer.foo`
