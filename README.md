@@ -1,7 +1,7 @@
 ﻿# LogChecker
  ## layout of the Settings.yml File
  
- logdir:
+ logdir:<br>
  `"Log_Directory"`
  
  logs:<br>
@@ -9,5 +9,5 @@
 ` -log2.log`<br>
  `-log3.log`<br>
  
- email:
+ email:<br>
 ` support@emailprovicer.foo`
