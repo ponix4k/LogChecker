@@ -1,4 +1,5 @@
 #/usr/bin/python3
+
 from datetime import datetime,timedelta
 import yaml
 
@@ -34,7 +35,7 @@ def check_logs(logs,log_dir):
     for log in logs:
         logPath = "{0}{1}{2}.log".format(log_dir,log,yesterday)
         print("there are {0} errors in {1}".format(count_errors_in_log(logPath),log))
-        with open("dailylog.log"+a)
+        l1 = open("dailylog.log","a")
 
         if has_finished(logPath) == True:
             print("{0} run has finished".format(log))
